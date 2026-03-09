@@ -1,0 +1,210 @@
+{
+  "EVT_001": {
+    "comparison": {
+      "vehicles": [
+        14,
+        4,
+        4
+      ],
+      "sla_pct": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "total_time_min": [
+        1080.9,
+        495.0,
+        495.0
+      ],
+      "total_km": [
+        255.995,
+        122.076,
+        122.076
+      ],
+      "cost": [
+        3072,
+        1465,
+        1465
+      ],
+      "high_breach": [
+        0,
+        0,
+        0
+      ],
+      "stops_saved_by_rerouting": [],
+      "delay_b_vs_a": -585.9,
+      "delay_c_vs_a": -585.9,
+      "delay_saved_c_vs_b": 0.0
+    },
+    "active_events": [
+      "EVT_001"
+    ]
+  },
+  "EVT_002": {
+    "comparison": {
+      "vehicles": [
+        14,
+        4,
+        4
+      ],
+      "sla_pct": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "total_time_min": [
+        1080.9,
+        495.0,
+        515.9
+      ],
+      "total_km": [
+        255.995,
+        122.076,
+        122.076
+      ],
+      "cost": [
+        3072,
+        1465,
+        1465
+      ],
+      "high_breach": [
+        0,
+        0,
+        0
+      ],
+      "stops_saved_by_rerouting": [],
+      "delay_b_vs_a": -585.9,
+      "delay_c_vs_a": -565.0,
+      "delay_saved_c_vs_b": -20.9
+    },
+    "active_events": [
+      "EVT_002"
+    ]
+  },
+  "EVT_003": {
+    "comparison": {
+      "vehicles": [
+        14,
+        4,
+        4
+      ],
+      "sla_pct": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "total_time_min": [
+        1080.9,
+        495.0,
+        513.0
+      ],
+      "total_km": [
+        255.995,
+        122.076,
+        122.076
+      ],
+      "cost": [
+        3072,
+        1465,
+        1465
+      ],
+      "high_breach": [
+        0,
+        0,
+        0
+      ],
+      "stops_saved_by_rerouting": [],
+      "delay_b_vs_a": -585.9,
+      "delay_c_vs_a": -567.9,
+      "delay_saved_c_vs_b": -18.0
+    },
+    "active_events": [
+      "EVT_003"
+    ]
+  },
+  "EVT_001+EVT_002": {
+    "comparison": {
+      "vehicles": [
+        14,
+        4,
+        4
+      ],
+      "sla_pct": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "total_time_min": [
+        1080.9,
+        495.0,
+        515.9
+      ],
+      "total_km": [
+        255.995,
+        122.076,
+        122.076
+      ],
+      "cost": [
+        3072,
+        1465,
+        1465
+      ],
+      "high_breach": [
+        0,
+        0,
+        0
+      ],
+      "stops_saved_by_rerouting": [],
+      "delay_b_vs_a": -585.9,
+      "delay_c_vs_a": -565.0,
+      "delay_saved_c_vs_b": -20.9
+    },
+    "active_events": [
+      "EVT_001",
+      "EVT_002"
+    ]
+  },
+  "EVT_001+EVT_002+EVT_003": {
+    "comparison": {
+      "vehicles": [
+        14,
+        4,
+        4
+      ],
+      "sla_pct": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "total_time_min": [
+        1080.9,
+        495.0,
+        526.8
+      ],
+      "total_km": [
+        255.995,
+        122.076,
+        122.076
+      ],
+      "cost": [
+        3072,
+        1465,
+        1465
+      ],
+      "high_breach": [
+        0,
+        0,
+        0
+      ],
+      "stops_saved_by_rerouting": [],
+      "delay_b_vs_a": -585.9,
+      "delay_c_vs_a": -554.1,
+      "delay_saved_c_vs_b": -31.8
+    },
+    "active_events": [
+      "EVT_001",
+      "EVT_002",
+      "EVT_003"
+    ]
+  }
+}

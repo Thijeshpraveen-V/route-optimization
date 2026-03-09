@@ -1,0 +1,378 @@
+{
+  "naive": {
+    "routes": [
+      {
+        "vehicle": "V01",
+        "route": [
+          0,
+          1,
+          0
+        ],
+        "stop_type": "DELIVERY",
+        "demand": 2,
+        "dist_m": 11431,
+        "time_s": 898
+      },
+      {
+        "vehicle": "V02",
+        "route": [
+          0,
+          2,
+          0
+        ],
+        "stop_type": "DELIVERY",
+        "demand": 1,
+        "dist_m": 15715,
+        "time_s": 1147
+      },
+      {
+        "vehicle": "V03",
+        "route": [
+          0,
+          3,
+          0
+        ],
+        "stop_type": "DELIVERY",
+        "demand": 2,
+        "dist_m": 14546,
+        "time_s": 1191
+      },
+      {
+        "vehicle": "V04",
+        "route": [
+          0,
+          4,
+          0
+        ],
+        "stop_type": "DELIVERY",
+        "demand": 1,
+        "dist_m": 15834,
+        "time_s": 1423
+      },
+      {
+        "vehicle": "V05",
+        "route": [
+          0,
+          5,
+          0
+        ],
+        "stop_type": "DELIVERY",
+        "demand": 2,
+        "dist_m": 8827,
+        "time_s": 728
+      },
+      {
+        "vehicle": "V06",
+        "route": [
+          0,
+          6,
+          0
+        ],
+        "stop_type": "DELIVERY",
+        "demand": 1,
+        "dist_m": 12883,
+        "time_s": 933
+      },
+      {
+        "vehicle": "V07",
+        "route": [
+          0,
+          7,
+          0
+        ],
+        "stop_type": "DELIVERY",
+        "demand": 2,
+        "dist_m": 13214,
+        "time_s": 1152
+      },
+      {
+        "vehicle": "V08",
+        "route": [
+          0,
+          8,
+          0
+        ],
+        "stop_type": "DELIVERY",
+        "demand": 1,
+        "dist_m": 19070,
+        "time_s": 1553
+      },
+      {
+        "vehicle": "V09",
+        "route": [
+          0,
+          9,
+          0
+        ],
+        "stop_type": "DELIVERY",
+        "demand": 1,
+        "dist_m": 8464,
+        "time_s": 769
+      },
+      {
+        "vehicle": "V10",
+        "route": [
+          0,
+          10,
+          0
+        ],
+        "stop_type": "DELIVERY",
+        "demand": 2,
+        "dist_m": 26505,
+        "time_s": 1935
+      },
+      {
+        "vehicle": "V11",
+        "route": [
+          0,
+          11,
+          0
+        ],
+        "stop_type": "DELIVERY",
+        "demand": 1,
+        "dist_m": 28886,
+        "time_s": 2098
+      },
+      {
+        "vehicle": "V12",
+        "route": [
+          0,
+          12,
+          0
+        ],
+        "stop_type": "DELIVERY",
+        "demand": 1,
+        "dist_m": 34436,
+        "time_s": 2478
+      },
+      {
+        "vehicle": "V13",
+        "route": [
+          0,
+          13,
+          0
+        ],
+        "stop_type": "DELIVERY",
+        "demand": 2,
+        "dist_m": 11995,
+        "time_s": 869
+      },
+      {
+        "vehicle": "V14",
+        "route": [
+          0,
+          14,
+          0
+        ],
+        "stop_type": "DELIVERY",
+        "demand": 1,
+        "dist_m": 34189,
+        "time_s": 2145
+      },
+      {
+        "vehicle": "V15",
+        "route": [
+          0,
+          15,
+          0
+        ],
+        "stop_type": "PICKUP",
+        "demand": 2,
+        "dist_m": 4239,
+        "time_s": 418
+      },
+      {
+        "vehicle": "V16",
+        "route": [
+          0,
+          16,
+          0
+        ],
+        "stop_type": "PICKUP",
+        "demand": 2,
+        "dist_m": 11134,
+        "time_s": 952
+      },
+      {
+        "vehicle": "V17",
+        "route": [
+          0,
+          17,
+          0
+        ],
+        "stop_type": "PICKUP",
+        "demand": 1,
+        "dist_m": 9236,
+        "time_s": 730
+      }
+    ],
+    "total_km": 280.604,
+    "total_min": 356.98333333333335,
+    "n_veh": 17,
+    "delivery_vehicles": 14,
+    "pickup_vehicles": 3,
+    "sla": {
+      "sla_pct": 29.4,
+      "on_time": 5,
+      "total": 17,
+      "high_breach": 1,
+      "med_breach": 6,
+      "low_breach": 5,
+      "delivery_sla": 35.7,
+      "pickup_sla": 0.0
+    }
+  },
+  "opt": {
+    "routes": [
+      {
+        "vehicle": "V01",
+        "route_wt": [
+          [
+            0,
+            0
+          ],
+          [
+            15,
+            3600
+          ],
+          [
+            10,
+            4571
+          ],
+          [
+            11,
+            5400
+          ],
+          [
+            12,
+            8100
+          ],
+          [
+            8,
+            9080
+          ],
+          [
+            0,
+            9868
+          ]
+        ],
+        "dist_m": 41688,
+        "time_s": 3708,
+        "n_deliveries": 4,
+        "n_pickups": 1
+      },
+      {
+        "vehicle": "V02",
+        "route_wt": [
+          [
+            0,
+            0
+          ],
+          [
+            13,
+            413
+          ],
+          [
+            14,
+            1361
+          ],
+          [
+            7,
+            7200
+          ],
+          [
+            0,
+            7822
+          ]
+        ],
+        "dist_m": 40516,
+        "time_s": 3064,
+        "n_deliveries": 3,
+        "n_pickups": 0
+      },
+      {
+        "vehicle": "V03",
+        "route_wt": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            378
+          ],
+          [
+            3,
+            3600
+          ],
+          [
+            2,
+            3925
+          ],
+          [
+            4,
+            4317
+          ],
+          [
+            0,
+            4966
+          ]
+        ],
+        "dist_m": 23760,
+        "time_s": 2162,
+        "n_deliveries": 4,
+        "n_pickups": 0
+      },
+      {
+        "vehicle": "V04",
+        "route_wt": [
+          [
+            0,
+            0
+          ],
+          [
+            9,
+            410
+          ],
+          [
+            17,
+            3600
+          ],
+          [
+            16,
+            7200
+          ],
+          [
+            6,
+            7341
+          ],
+          [
+            5,
+            7513
+          ],
+          [
+            0,
+            7879
+          ]
+        ],
+        "dist_m": 14064,
+        "time_s": 1495,
+        "n_deliveries": 3,
+        "n_pickups": 2
+      }
+    ],
+    "total_km": 120.028,
+    "total_min": 173.81666666666666,
+    "n_veh": 4,
+    "sla": {
+      "sla_pct": 94.1,
+      "on_time": 16,
+      "total": 17,
+      "high_breach": 0,
+      "med_breach": 1,
+      "low_breach": 0,
+      "delivery_sla": 92.9,
+      "pickup_sla": 100.0
+    }
+  }
+}

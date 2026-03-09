@@ -1,0 +1,198 @@
+{
+  "rounds": [
+    {
+      "round": 1,
+      "mae_before": 12.8,
+      "mae_after": 0.0,
+      "sla_pct": 100.0,
+      "n_obs": 18,
+      "n_corrections": 18,
+      "vehicles": 4,
+      "total_km": 122.076
+    },
+    {
+      "round": 2,
+      "mae_before": 8.4,
+      "mae_after": 6.0,
+      "sla_pct": 100.0,
+      "n_obs": 18,
+      "n_corrections": 18,
+      "vehicles": 4,
+      "total_km": 122.076
+    },
+    {
+      "round": 3,
+      "mae_before": 6.5,
+      "mae_after": 4.6,
+      "sla_pct": 100.0,
+      "n_obs": 18,
+      "n_corrections": 18,
+      "vehicles": 4,
+      "total_km": 122.076
+    },
+    {
+      "round": 4,
+      "mae_before": 6.4,
+      "mae_after": 4.4,
+      "sla_pct": 100.0,
+      "n_obs": 18,
+      "n_corrections": 18,
+      "vehicles": 4,
+      "total_km": 122.076
+    }
+  ],
+  "top_corrections": [
+    {
+      "from_node": 0,
+      "to_node": 10,
+      "from_name": "Koramangala Hub",
+      "to_name": "Ecity Phase 1",
+      "band": "EARLY",
+      "factor": 1.507,
+      "count": 4,
+      "impact": "\ud83d\udd34 Severe"
+    },
+    {
+      "from_node": 0,
+      "to_node": 9,
+      "from_name": "Koramangala Hub",
+      "to_name": "Silk Board Jn",
+      "band": "EARLY",
+      "factor": 1.448,
+      "count": 4,
+      "impact": "\ud83d\udd34 Severe"
+    },
+    {
+      "from_node": 14,
+      "to_node": 7,
+      "from_name": "Whitefield Main Rd",
+      "to_name": "Bellandur Signal",
+      "band": "EARLY",
+      "factor": 1.262,
+      "count": 4,
+      "impact": "\ud83d\udfe0 Heavy"
+    },
+    {
+      "from_node": 10,
+      "to_node": 11,
+      "from_name": "Ecity Phase 1",
+      "to_name": "Ecity Phase 2",
+      "band": "EARLY",
+      "factor": 1.167,
+      "count": 4,
+      "impact": "\ud83d\udfe1 Moderate"
+    },
+    {
+      "from_node": 9,
+      "to_node": 4,
+      "from_name": "Silk Board Jn",
+      "to_name": "BTM 1st Stage",
+      "band": "EARLY",
+      "factor": 1.165,
+      "count": 4,
+      "impact": "\ud83d\udfe1 Moderate"
+    },
+    {
+      "from_node": 0,
+      "to_node": 13,
+      "from_name": "Koramangala Hub",
+      "to_name": "Indiranagar 100ft",
+      "band": "EARLY",
+      "factor": 1.156,
+      "count": 4,
+      "impact": "\ud83d\udfe1 Moderate"
+    },
+    {
+      "from_node": 11,
+      "to_node": 12,
+      "from_name": "Ecity Phase 2",
+      "to_name": "Hebbagodi",
+      "band": "EARLY",
+      "factor": 1.154,
+      "count": 4,
+      "impact": "\ud83d\udfe1 Moderate"
+    },
+    {
+      "from_node": 12,
+      "to_node": 8,
+      "from_name": "Hebbagodi",
+      "to_name": "Sarjapur Road",
+      "band": "EARLY",
+      "factor": 1.037,
+      "count": 4,
+      "impact": "\ud83d\udfe1 Moderate"
+    },
+    {
+      "from_node": 6,
+      "to_node": 5,
+      "from_name": "HSR Layout Sec 7",
+      "to_name": "HSR Layout Sec 1",
+      "band": "EARLY",
+      "factor": 1.029,
+      "count": 4,
+      "impact": "\ud83d\udfe1 Moderate"
+    },
+    {
+      "from_node": 3,
+      "to_node": 0,
+      "from_name": "Lalbagh West Gate",
+      "to_name": "Koramangala Hub",
+      "band": "EARLY",
+      "factor": 1.018,
+      "count": 4,
+      "impact": "\ud83d\udfe1 Moderate"
+    },
+    {
+      "from_node": 8,
+      "to_node": 0,
+      "from_name": "Sarjapur Road",
+      "to_name": "Koramangala Hub",
+      "band": "EARLY",
+      "factor": 1.005,
+      "count": 4,
+      "impact": "\ud83d\udfe1 Moderate"
+    },
+    {
+      "from_node": 4,
+      "to_node": 6,
+      "from_name": "BTM 1st Stage",
+      "to_name": "HSR Layout Sec 7",
+      "band": "EARLY",
+      "factor": 1.005,
+      "count": 4,
+      "impact": "\ud83d\udfe1 Moderate"
+    },
+    {
+      "from_node": 5,
+      "to_node": 0,
+      "from_name": "HSR Layout Sec 1",
+      "to_name": "Koramangala Hub",
+      "band": "EARLY",
+      "factor": 0.993,
+      "count": 4,
+      "impact": "\ud83d\udfe1 Moderate"
+    },
+    {
+      "from_node": 2,
+      "to_node": 3,
+      "from_name": "Jayanagar 3rd Block",
+      "to_name": "Lalbagh West Gate",
+      "band": "EARLY",
+      "factor": 0.992,
+      "count": 4,
+      "impact": "\ud83d\udfe1 Moderate"
+    },
+    {
+      "from_node": 13,
+      "to_node": 14,
+      "from_name": "Indiranagar 100ft",
+      "to_name": "Whitefield Main Rd",
+      "band": "EARLY",
+      "factor": 0.978,
+      "count": 4,
+      "impact": "\ud83d\udfe1 Moderate"
+    }
+  ],
+  "alpha": 0.3,
+  "total_corrections": 18
+}
