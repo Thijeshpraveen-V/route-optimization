@@ -1,4 +1,4 @@
-# 🚚 SmartDeliver AI — Route Optimization Engine
+# 🚚 AI Route Optimization Engine
 
 > **AI-powered last-mile logistics platform** combining route optimization, real-time traffic intelligence, continuous ETA learning, and forward + reverse logistics — built for Bengaluru's urban delivery network.
 
@@ -389,5 +389,5 @@ python generate_ppt.py
 
 ## 👤 Author
 
-Built for competitive presentation — Bengaluru Urban Delivery AI Demo  
+Built for competitive presentation — --rebase
 Stack: Python · OR-Tools · Streamlit · Folium · OSRM
